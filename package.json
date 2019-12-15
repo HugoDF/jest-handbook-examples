@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "xo .",
+    "format": "xo . --fix"
+  },
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "globals": []
+  },
+  "license": "MIT"
+}
