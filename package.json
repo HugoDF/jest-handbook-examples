@@ -1,8 +1,10 @@
 {
+  "name": "jest-handbook-examples",
   "private": true,
   "scripts": {
-    "lint": "xo .",
-    "format": "xo . --fix"
+    "test": "jest src",
+    "lint": "xo ./src",
+    "format": "xo ./src --fix"
   },
   "devDependencies": {
     "xo": "latest"
@@ -10,7 +12,11 @@
   "xo": {
     "prettier": true,
     "space": true,
-    "globals": []
+    "globals": ["expect", "test", "describe", "jest"]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0"
+  }
 }
