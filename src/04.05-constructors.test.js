@@ -1,23 +1,23 @@
-const applicationWork = createUser => {
-  return async (req, res) => {
-    const {name} = req.body;
+const appWork = createUser => {
+  return async (request, response) => {
+    const {name} = request.body;
     const user = await createUser(name, new Date());
-    return res.status(201).json(user);
+    return response.status(201).json(user);
   };
 };
 
 test('should call createUser with right types', async () => {
-  const req = {
+  const request = {
     body: {
       name: 'User Name'
     }
   };
-  const res = {
-    status: jest.fn(() => res),
-    json: jest.fn(() => res)
+  const response = {
+    status: jest.fn(() => response),
+    json: jest.fn(() => response)
   };
   const mockCreateUser = jest.fn();
-  await applicationWork(mockCreateUser)(req, res);
+  await appWork(mockCreateUser)(request, response);
   expect(mockCreateUser).toHaveBeenCalledWith(
     expect.any(String),
     expect.any(Date)
