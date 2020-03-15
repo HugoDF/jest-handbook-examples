@@ -38,6 +38,14 @@
   "jest": {
     "transform": {
       "^.+\\.js$": "babel-jest"
+    },
+    "coverageThreshold": {
+      "global": {
+        "branches": 10,
+        "functions": 78,
+        "lines": 80,
+        "statements": 80
+      }
     }
   },
   "babel": {
