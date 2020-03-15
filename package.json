@@ -7,16 +7,20 @@
     "format": "xo ./src --fix"
   },
   "devDependencies": {
-    "xo": "latest"
+    "xo": "^0.28.0"
   },
   "xo": {
     "prettier": true,
     "space": true,
-    "globals": ["expect", "test", "describe", "jest"]
+    "globals": [
+      "expect",
+      "test",
+      "describe",
+      "jest"
+    ]
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0"
+    "jest": "^25.1.0"
   }
 }
