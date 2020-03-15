@@ -1,12 +1,13 @@
-jest.mock('./02.06-db', () => ({
+/* eslint-disable import/extensions */
+jest.mock('./03.01-db', () => ({
   get: jest.fn(),
   set: jest.fn()
 }));
 
-const mockDb = require('./02.06-db');
-const {addTodo, getTodo} = require('./02.06-lib.cjs');
+import mockDb from './03.01-db';
+import {addTodo, getTodo} from './03.01-lib.esm';
 
-test('CommonJS > addTodo > inserts with new id', async () => {
+test('ESM Named Export > addTodo > inserts with new id', async () => {
   await addTodo({name: 'new todo'});
   expect(mockDb.set).toHaveBeenCalledWith('todos:1', {
     name: 'new todo',
@@ -14,7 +15,7 @@ test('CommonJS > addTodo > inserts with new id', async () => {
   });
 });
 
-test('CommonJS > getTodo > returns output of db.get', async () => {
+test('ESM Named Export > getTodo > returns output of db.get', async () => {
   mockDb.get.mockResolvedValueOnce({
     id: 1,
     name: 'todo-1'

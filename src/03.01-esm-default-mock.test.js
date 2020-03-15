@@ -1,11 +1,11 @@
 /* eslint-disable import/extensions */
-jest.mock('./02.06-db', () => ({
+jest.mock('./03.01-db', () => ({
   get: jest.fn(),
   set: jest.fn()
 }));
 
-import mockDb from './02.06-db';
-import lib from './02.06-lib.esm';
+import mockDb from './03.01-db';
+import lib from './03.01-lib.esm';
 
 const {addTodo, getTodo} = lib;
 

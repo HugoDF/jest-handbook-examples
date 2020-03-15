@@ -1,4 +1,4 @@
-const db = require('./02.06-db');
+const db = require('./03.01-db');
 
 const keyPrefix = 'todos';
 const makeKey = key => `${keyPrefix}:${key}`;
