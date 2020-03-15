@@ -26,6 +26,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "jest": "^25.1.0",
     "sequelize": "^5.21.5"
   },
