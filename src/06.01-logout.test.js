@@ -4,7 +4,7 @@ async function logout(request, res) {
   return res.status(200).json();
 }
 
-const mockRequest = sessionData => {
+const mockRequest = (sessionData) => {
   return {
     session: {data: sessionData}
   };

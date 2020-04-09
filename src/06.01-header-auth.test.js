@@ -4,7 +4,7 @@ const apiKeyToUser = {
 };
 
 const apiKeys = new Set(Object.keys(apiKeyToUser));
-const isApiKey = key => apiKeys.has(key);
+const isApiKey = (key) => apiKeys.has(key);
 
 function headerAuth(req, res, next) {
   if (req.session.data) {

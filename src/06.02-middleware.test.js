@@ -21,9 +21,7 @@ const initMiddleware = () => {
 
 test('encodeReferer should base64 referer if set', async () => {
   const app = initMiddleware();
-  const res = await request(app)
-    .get('/')
-    .set('Referer', 'codewithhugo.com');
+  const res = await request(app).get('/').set('Referer', 'codewithhugo.com');
   expect(res.text).toEqual('Y29kZXdpdGhodWdvLmNvbQ==');
 });
 

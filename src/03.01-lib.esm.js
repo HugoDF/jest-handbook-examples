@@ -2,7 +2,7 @@
 import db from './03.01-db';
 
 const keyPrefix = 'todos';
-const makeKey = key => `${keyPrefix}:${key}`;
+const makeKey = (key) => `${keyPrefix}:${key}`;
 
 let autoId = 1;
 

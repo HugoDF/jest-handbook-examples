@@ -8,7 +8,7 @@ const counter = {
   }
 };
 
-const singleAdd = counter => {
+const singleAdd = (counter) => {
   counter.add(10);
 };
 

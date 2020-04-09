@@ -8,7 +8,7 @@ async function checkAuth(request, res) {
   return res.status(200).json({username});
 }
 
-const mockRequest = sessionData => {
+const mockRequest = (sessionData) => {
   return {
     session: {data: sessionData}
   };

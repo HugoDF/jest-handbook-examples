@@ -4,7 +4,7 @@ const fetch = jest.fn().mockResolvedValue({});
 
 async function getUrlsForAccount(accountId, offset, limit, searchRegex) {
   const configs = await getPingConfigs(accountId, offset, limit, searchRegex);
-  return configs.map(conf => conf.url);
+  return configs.map((conf) => conf.url);
 }
 
 async function pinger(accountId, {offset = 0, limit = 50} = {}, search) {
@@ -12,7 +12,7 @@ async function pinger(accountId, {offset = 0, limit = 50} = {}, search) {
     ? new RegExp(search.split(' ').join('|'))
     : new RegExp('.*');
   const urls = await getUrlsForAccount(accountId, offset, limit, searchRegex);
-  return Promise.all(urls.map(url => fetch(url)));
+  return Promise.all(urls.map((url) => fetch(url)));
 }
 
 describe('without search', () => {
