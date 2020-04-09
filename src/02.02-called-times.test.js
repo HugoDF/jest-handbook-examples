@@ -7,7 +7,7 @@ const counter = {
     return count;
   }
 };
-const app = counter => {
+const app = (counter) => {
   counter.increment();
 };
 

@@ -8,7 +8,7 @@ const counter = {
   }
 };
 
-const multipleAdd = counter => {
+const multipleAdd = (counter) => {
   counter.add(15);
   counter.add(20);
 };

@@ -1,4 +1,4 @@
-const mockObjectId = data => {
+const mockObjectId = (data) => {
   return {
     name: data,
     toString: () => data

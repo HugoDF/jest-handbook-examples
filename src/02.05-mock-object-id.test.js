@@ -1,4 +1,4 @@
-const mockObjectId = data => {
+const mockObjectId = (data) => {
   const oid = {
     name: data
   };

@@ -1,4 +1,4 @@
-const appWork = createUser => {
+const appWork = (createUser) => {
   return async (request, response) => {
     const {name} = request.body;
     const user = await createUser(name, new Date());
