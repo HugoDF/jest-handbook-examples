@@ -8,7 +8,7 @@
     "format": "xo ./src --fix"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.0",
+    "@babel/core": "^7.10.1",
     "babel-jest": "^26.0.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "xo": "^0.30.0"
