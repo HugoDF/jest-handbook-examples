@@ -11,7 +11,7 @@
     "@babel/core": "^7.10.4",
     "babel-jest": "^26.1.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "xo": "^0.32.0"
+    "xo": "^0.32.1"
   },
   "xo": {
     "prettier": true,
