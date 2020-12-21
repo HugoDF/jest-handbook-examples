@@ -11,7 +11,7 @@
     "@babel/core": "^7.12.10",
     "babel-jest": "^26.6.3",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "xo": "^0.32.1"
+    "xo": "^0.36.1"
   },
   "xo": {
     "prettier": true,
@@ -23,7 +23,10 @@
       "test",
       "describe",
       "jest"
-    ]
+    ],
+    "rules": {
+      "unicorn/no-object-as-default-parameter": "warn"
+    }
   },
   "license": "MIT",
   "dependencies": {
