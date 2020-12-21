@@ -23,7 +23,10 @@
       "test",
       "describe",
       "jest"
-    ]
+    ],
+    "rules": {
+      "unicorn/no-object-as-default-parameter": "warn"
+    }
   },
   "license": "MIT",
   "dependencies": {
