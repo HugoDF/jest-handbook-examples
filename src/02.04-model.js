@@ -15,7 +15,7 @@ class MyModel extends Model {
       throw new TypeError('meetings should be eager-loaded');
     }
 
-    return !this.meetings.find(
+    return !this.meetings.some(
       ({ startDate, endDate }) => startDate < date && endDate > date
     );
   }

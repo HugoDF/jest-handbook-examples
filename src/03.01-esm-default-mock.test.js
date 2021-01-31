@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 jest.mock('./03.01-db', () => ({
   get: jest.fn(),
   set: jest.fn()
