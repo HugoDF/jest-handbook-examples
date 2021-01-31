@@ -1,6 +1,6 @@
 const format = jest.fn();
 function getName(firstName, ...otherNames) {
-  // eslint-disable-next-line unicorn/no-reduce
+  // eslint-disable-next-line unicorn/no-array-reduce
   const restOfNames = otherNames.reduce(
     (acc, curr) => (acc ? `${acc} ${format(curr)}` : format(curr)),
     ''
