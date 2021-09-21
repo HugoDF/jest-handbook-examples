@@ -33,7 +33,7 @@
     "axios": "^0.21.4",
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
-    "jest": "^27.1.1",
+    "jest": "^27.2.1",
     "moxios": "^0.4.0",
     "sequelize": "^6.6.5",
     "supertest": "^6.1.6"
