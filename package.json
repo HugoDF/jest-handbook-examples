@@ -30,7 +30,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.22.0",
+    "axios": "^0.23.0",
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "jest": "^27.2.4",
