@@ -878,6 +878,11 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
 
+"@types/validator@^13.7.1":
+  version "13.7.2"
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.7.2.tgz#a2114225d9be743fb154b06c29b8257aaca42922"
+  integrity sha512-KFcchQ3h0OPQgFirBRPZr5F/sVjxZsOrQHedj3zi8AH3Zv/hOLx2OLR4hxR5HcfoU+33n69ZuOfzthKVdMoTiw==
+
 "@types/yargs-parser@*":
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
@@ -3528,7 +3533,7 @@ indent-string@^4.0.0:
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
-inflection@^1.13.1:
+inflection@^1.13.2:
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/inflection/-/inflection-1.13.2.tgz#15e8c797c6c3dadf31aa658f8df8a4ea024798b0"
   integrity sha512-cmZlljCRTBFouT8UzMzrGcVEvkv6D/wBdcdKG7J1QH5cXjtU75Dm+P27v9EKu/Y43UYyCJd1WC4zLebRrC8NBw==
@@ -5943,15 +5948,16 @@ sequelize-pool@^7.1.0:
   resolved "https://registry.yarnpkg.com/sequelize-pool/-/sequelize-pool-7.1.0.tgz#210b391af4002762f823188fd6ecfc7413020768"
   integrity sha512-G9c0qlIWQSK29pR/5U2JF5dDQeqqHRragoyahj/Nx4KOOQ3CPPfzxnfqFPCSB7x5UgjOgnZ61nSxz+fjDpRlJg==
 
-sequelize@^6.16.1:
-  version "6.16.1"
-  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.16.1.tgz#2c84036ae0a64843cdfa52c8e3d0bee9c52ce116"
-  integrity sha512-YFGqrwkmEhSbpZBxay5+PRKMiZNNUJzgIixCyFkLm9+/5Rqq5jBADEjTAC8RYHzwsOGNboYh18imXrYNCjBZCQ==
+sequelize@^6.20.0:
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.20.0.tgz#022c891c53a922e2a01bcd13ca082c6ffa0b381e"
+  integrity sha512-45B+k4eKP0D+x1F08dSYnZjlKGvlxM/FCVTWQ6TLVaGCyRv/TmvTRSZ4bTNB5pMgQOMkJUlztg5zSvMmkzaWCA==
   dependencies:
     "@types/debug" "^4.1.7"
+    "@types/validator" "^13.7.1"
     debug "^4.3.3"
     dottie "^2.0.2"
-    inflection "^1.13.1"
+    inflection "^1.13.2"
     lodash "^4.17.21"
     moment "^2.29.1"
     moment-timezone "^0.5.34"
