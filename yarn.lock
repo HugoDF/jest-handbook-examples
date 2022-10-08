@@ -2731,10 +2731,9 @@ expect@^28.0.1:
     jest-message-util "^28.0.1"
     jest-util "^28.0.1"
 
-express@^4.18.0:
-  version "4.18.0"
-  resolved "https://registry.yarnpkg.com/express/-/express-4.18.0.tgz"
-  integrity "sha1-ekJnczJdDdVAY5UiBhTA2xC26OI= sha512-EJEXxiTQJS3lIPrU1AE2vRuT7X7E+0KBbpm5GSoK524yl0K8X+er8zS2P14E64eqsVNoWbMCT7MpmQ+ErAhgRg=="
+express@^4.18.1:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/express/-/express-4.18.1.tgz#7797de8b9c72c857b9cd0e14a5eea80666267caf"
   dependencies:
     accepts "~1.3.8"
     array-flatten "1.1.1"
