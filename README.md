@@ -6,7 +6,7 @@
 ## Setup
 
 1. Clone the repository
-2. Run `yarn` or `npm install` installs all required dependencies.
+2. Run `npm install` to install required dependencies.
 
 ## npm scripts
 
