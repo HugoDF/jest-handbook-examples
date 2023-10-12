@@ -1,7 +1,7 @@
 ## Requirements
 
-- Node 10
-- Yarn 1.x or npm
+- Node LTS
+- npm
 
 ## Setup
 
@@ -10,10 +10,10 @@
 
 ## npm scripts
 
-> Equivalent `npm run <script>` should also work
-
-- `yarn lint` will lint all of the files with [xo](https://github.com/xojs/xo)
-- `yarn format` will run lint with `--fix` option on all the examples files (and tests).
+- `npm run test` will run passing test suites
+- `npm run test:failing` will run test suites with failing tests
+- `npm run lint` will lint all of the files with [xo](https://github.com/xojs/xo)
+- `npm run format` will run lint with `--fix` option on all the examples files (and tests).
 
 ## LICENSE
 
