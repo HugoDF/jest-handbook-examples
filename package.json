@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
-    "babel-jest": "^29.5.0",
+    "babel-jest": "^29.7.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "xo": "^0.37.1"
   },
